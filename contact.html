@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Food Life Delivery</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+		<link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+		<link href="css/templatemo-style.css" rel="stylesheet" />
+</head>
+
+<body> 
+	<div class="container">
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/simple-house-01.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<a href="index.html"><img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" /></a>
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">Food Life Delivery</h1>
+								<h6 class="tm-site-description">Comida saudável é todo dia</h6>	
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="/" class="tm-nav-link active">Inicio</a></li>
+								<li class="tm-nav-li"><a href="/about.html" class="tm-nav-link">Sobre</a></li>
+								<li class="tm-nav-li"><a href="/contact.html" class="tm-nav-link">Contato</a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<main>
+			<header class="row tm-welcome-section">
+				<h2 class="col-12 text-center tm-section-title">Contato</h2>
+				<p class="col-12 text-center">Para entrar em contato conosco utilize os canais abaixo.</p>
+			</header>
+			<div class="tm-container-inner-2 tm-contact-section">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="tm-address-box">
+							<h4 class="tm-info-title tm-text-success">Nosso endereço</h4>
+							<address>
+								R. Almirante Tamandaré - Centro - Itabuna - BA.
+							</address>
+							<a href="tel:5573991176897" class="tm-contact-link">
+								<i class="fas fa-phone tm-contact-icon"></i><br>(73) 99117-6897
+							</a>
+							<a href="mailto:atendimento@foodlifedelivery.com.br" class="tm-contact-link">
+								<i class="fas fa-envelope tm-contact-icon"></i>atendimento@foodlifedelivery.com.br
+							</a>
+							<div class="tm-contact-social">
+								<a target="__blank" href="https://www.facebook.com/Hello.ICM/" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
+								<a target="__blank" href="https://www.instagram.com/ic.matos/" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>
+								<a target="__blank" href="https://twitter.com/ic_matos" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tm-container-inner-2 tm-map-section">
+				<div class="row">
+					<div class="col-12">
+						<div class="tm-map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3857.527789381705!2d-39.28106278574087!3d-14.795607603121143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x739abbe460b3ef7%3A0xab5d7492676a4794!2sMeuDelivery!5e0!3m2!1spt-BR!2sbr!4v1613519056643!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="tm-footer text-center">
+			<p>Copyright &copy; 2020 <a href="https://github.com/oberyn-m" target="__blank">ICM Website</a>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+			
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var panel = this.nextElementSibling;
+			    if (panel.style.maxHeight) {
+			      panel.style.maxHeight = null;
+			    } else {
+			      panel.style.maxHeight = panel.scrollHeight + "px";
+			    }
+			  });
+			}	
+		});
+	</script>
+</body>
+</html>
