@@ -16,7 +16,6 @@ Este site foi constrúido com:
 
 * [HTML]
 * [CSS]
-* [JAVASCRIPT]
 * [TM_GOOGLE_MY_MAPS]
 
 ## ✒️ Autor
